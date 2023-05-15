@@ -1,0 +1,378 @@
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url('fonts\Lobster-Regular.ttf');
+}
+body{
+  background-image: url(https://wallpaperaccess.com/full/3014701.jpg);
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  
+}
+body::before{
+  position: fixed;
+  opacity: 0.5;
+}
+header {
+    
+    display: flex;
+    background-color:#422f29;
+    padding: 1rem;
+    box-shadow: 0 3px 3px rgb(79, 79, 79);
+    border-radius: 20px;
+    top:0px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 3px;
+  }
+
+
+
+  #nhom{
+    color: white;
+    font-family: 'Lobster-Regular';
+    text-align: left;
+    font-size: x-large;
+
+
+    font-size: 50px;
+  }
+h1#nhom{
+  margin-bottom: 0;
+  text-align: center;
+}
+#tieude{
+    color :white;
+    font-family: 'Courier New', Courier, monospace;
+
+    justify-content: center;
+    align-items: center;
+    
+  }
+h2#tieude{
+  margin-top: 0;
+  text-align: center;
+}
+
+
+.cost{
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+  .add-to-cart{
+    display: none;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 5px #422f29;
+  }
+  .add-to-cart:hover{
+    background-color: forestgreen;
+    color:white;
+  }
+
+
+  
+
+  
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .menu-item {
+    background-color: #63504a;
+    box-shadow: 0 5px 10px rgb(30, 30, 30);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color:white; 
+    text-align: center;
+    
+    
+    
+}
+.menu-item h2{
+  font-size: 40px;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+}
+.menu-item:hover .add-to-cart{
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-left: 25%;
+}
+#Suon_xao{
+  background-image: url(https://bepxua.vn/wp-content/uploads/2020/08/Suon-xao-chua-ngot-ngon-1.jpg); 
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+}
+#com_rang{
+  background-image: url(https://www.knorr.com/content/dam/unilever/knorr_world/vietnam/general_image/savoury/other_savoury/teaser_meo_rang_com-1187779.jpg);
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+}
+
+#com_tam{
+  background-image: url(https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/09_2022/quan-com-tam-o-ha-noi-.jpg); 
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+
+}
+#pho_bo{
+  background-image: url(https://cdn.daotaobeptruong.vn/wp-content/uploads/2020/03/cach-nau-pho-bo.jpg);
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+}
+#mi_xao_2_tom{
+  background-image: url(https://cdn.tgdd.vn/2021/11/CookRecipe/Avatar/mi-xao-hai-san-thumbnail.jpg);
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+
+}
+#Coca{
+background-image: url(https://static.vecteezy.com/system/resources/previews/007/978/653/original/coca-cola-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg);
+background-size: cover;
+height: 200px;
+border-radius: 20px;
+box-shadow:0 7px 7px #422f29;
+
+}
+#Sprite{
+  background-image: url(https://wallpaperaccess.com/full/4552738.png);
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+}
+#MIRINDA{
+  background-image: url(https://brademar.com/wp-content/uploads/2022/05/Logo-cua-thuong-hieu-Mirinda.jpg);
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow:0 7px 7px #422f29;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+
+
+}
+.in4{
+  font-size:20px;
+  margin-bottom: 5px;
+}
+
+
+a {
+  color: rgb(36, 175, 73);
+}
+a :hover{
+  color :#f2c641
+}
+
+#total-cost{
+  font-size: 30px;
+  color: #f1f1f0;
+  font-weight: bold;
+}
+#checkout-button{
+  display: flex;
+  background-color: brown;
+  padding: 0.5rem;
+  color:white;
+
+  float: right;
+  width: 150px;
+  height: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 40%;
+  border-radius: 10px;
+  box-shadow:0  7px 7px #f1f1f0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+ .cart {
+    position:fixed;
+    height: 120vh;
+    width: 300px;
+    right: -100%;
+    top: 0;
+    background-color: #f1f1f0;
+    border-radius: 12px;
+    overflow: scroll;
+    box-shadow:0 7px 7px #422f29;
+  } 
+  #cart-icon{
+    color:green;
+    font-size: 20px;
+    background-color: orange ;
+    display: flex;
+    border-radius: 5px;
+    position: fixed;
+    right: 0;
+    box-shadow: 0 3px 3px #422f29;
+    background-size: 10px 10px;
+    box-shadow: 0 4px 4px white;
+  }
+  #cart-icon:hover{
+    background-color: forestgreen;
+    color:orange;
+
+  }
+  .menu-icon{
+    color:green;
+    font-size: 40px;
+    background-color: orange ;
+    display: flex;
+    border-radius: 5px;
+    
+    box-shadow: 0 3px 3px #422f29;
+    background-size: 10px 10px;
+    box-shadow: 0 4px 4px white;
+  }
+
+  .cart i{
+    font-size: 30px;
+    color:red;
+  }
+  
+  #cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  }
+  
+  .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  }
+  
+  .cart-item h3 {
+  margin-right: 0.5rem;
+  }
+  
+  .cart-item button {
+  background-color: #422f29;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  }
+  
+  .cart-item button:hover {
+  background-color: #614d45;
+  }
+  
+  #cart-button {
+  background-color: yellow;
+  color:brown;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 10px;
+  }
+  
+  #cart-button:hover {
+  background-color: black;
+  }
+  #cart-button:hover.cart{
+    display: none;
+  }
+  
+   #total-cost {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #422f29;
+  }
+  
+  #total-price {
+  color:red;
+  font-size: 1.5rem;
+  } 
+  
+  #checkout-button {
+  background-color: #422f29;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  }
+  
+  #checkout-button:hover {
+  background-color: #614d45;
+  }
+
+.inf-menu{
+
+
+  top: 0;
+  
+  align-items: center;
+  box-shadow:0 7px 7px #422f29;
+  display: flex;
+  font-size: 15px;
+}
+
+
+.infor-menu h1{
+  
+  text-align: center;
+  
+  background-color: #f2c641;
+
+  
+}
+.inf-menu a{
+  margin-right: 30px;
+  text-decoration: none;
+  background-color: orange;
+  border-radius: 5px;
+  width: 70px;
+  height: 40px;
+  color:blue
+}
