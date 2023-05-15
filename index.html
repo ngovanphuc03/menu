@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Thực Đơn Nhà Hàng</title>
+    <link rel="stylesheet" href="Style\style.css">
+    <style>
+        background-image: url(https://wallpaperaccess.com/full/3014701.jpg);
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  
+
+    </style>
+</head>
+<body>
+
+    
+    
+    
+        <header>
+        
+                    <div class="inf-menu">
+                  
+                    <a href="" ><ion-icon name="home"></ion-icon>
+                        Trang Chủ</a>
+                
+                      
+                    <a href=""><ion-icon name="accessibility"></ion-icon>
+                        Nhân Viên</a>
+                
+                    
+                    <a href=""><ion-icon name="grid"></ion-icon>
+                        Menu</a>
+                
+                    <a href=""><ion-icon name="log-out"></ion-icon>Đăng xuất</a>
+                    </div>
+            
+            
+        </div>
+           
+            <h1 id="nhom">V</h1>
+                <h2 id="tieude">MENU Nhà Hàng</h2>
+                <div id="cart-icon">
+                    <p class="fa-show"><ion-icon name="cart"></ion-icon><span id="costbg">0</span><sup>$</sup></p></div> 
+              </div>
+        </header>
+        
+        
+        
+    </div>
+    <main>
+        <ul class="menu">
+           
+            <li>
+                <div class="menu-item">
+                        <div id="Suon_xao"></div>
+                        <div>
+                            <h2>Sườn xào </h2>
+                            
+                            <p class="cost">Giá : 20$</p>
+                            </div>
+                            <button class="add-to-cart" data-name="Sườn xào" data-price="25">Thêm vào giỏ hàng</button>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                        <div id="com_rang"></div>
+                        <div>
+                            <h2>Cơm rang</h2>
+                            <p class= "cost">Giá : 30$</p>
+                            
+                            <button class="add-to-cart" data-name="Cơm rang" data-price="30">Thêm vào giỏ hàng</button>
+                        </div>
+                        
+                    </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <div id="com_tam"></div>
+                    <div>
+                    <h2>Cơm tấm </h2>
+                    <p class= "cost">Giá : 45$</p>
+                    <button class="add-to-cart" data-name="Cơm tấm" data-price="45">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>    
+            </li>
+            <li>
+                <div class="menu-item">
+                    <div id="pho_bo"></div>
+                    <div>
+                        <h2>Phở bò</h2>
+                        <p class= "cost">Giá : 45$</p>
+                    
+                        <button class="add-to-cart" data-name="Phở bò" data-price="45">Thêm vào giỏ hàng</button>
+                    </div>
+                    
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <div id="mi_xao_2_tom"></div>
+                        <div>
+                            <h2>Mì xào 2 tôm </h2>
+                            <p class= "cost">Giá : 45$</p>
+                
+                            <button class="add-to-cart" data-name="Mì xào 2 tôm" data-price="45">Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <div id="Coca"></div>
+                    <div>
+                    <h2>Cocacola</h2>
+                    <p class= "cost">Giá : 20$</p>
+                    </div>
+            
+                    <button class="add-to-cart" data-name="Cocacola" data-price="20">Thêm vào giỏ hàng</button>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <div id="Sprite"></div>
+                    <h2>Sprite</h2>
+                    <p class= "cost">Giá : 20$</p>
+      
+                    <button class="add-to-cart" data-name="Sprite" data-price="20">Thêm vào giỏ hàng</button>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <div id="MIRINDA"></div>
+                    <h2>Mirinda </h2>
+            
+                    <p class= "cost">Giá : 20$</p>
+                  
+                    <button class="add-to-cart" data-name="Mirinda" data-price="20">Thêm vào giỏ hàng</button>
+            </li>
+        </ul>
+    </main>
+    <div class="cart">
+        <i class="fas fa-times"><ion-icon name="close-outline"></ion-icon></i>
+        <div id="info-cart">
+          <h2>Giỏ hàng của bạn</h2>
+          <div id="cart-items"></div>
+          <p id="total-cost">Tổng cộng: <span id="total-price">0</span> $</p>
+        <button id="checkout-button">Thanh toán</button>  
+        </div>
+      </div>
+    <!-- <div class ="infor-menu">
+      
+        
+            <h1>V</h1>
+         
+                <div class="inf-menu">
+                <p><ion-icon name="home-outline"></ion-icon></p>
+                <a href="" style="margin-top: 30px;">
+                    Trang Chủ</a>
+            
+                <p><ion-icon name="accessibility-outline"></ion-icon></p>    
+                <a href=""style="margin-top: 30px;">
+                    Nhân Viên</a>
+            
+                <p><ion-icon name="grid-outline"></ion-icon></p>
+                <a href=""style="margin-top: 30px;">
+                    Menu</a>
+            
+                <p><ion-icon name="log-out-outline"></ion-icon></p>    
+                <a href=""style="margin-top: 30px;">Đăng xuất</a>
+                </div>
+        
+        
+    </div> -->
+
+    <script src="javatest.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+      </body>
+      </html> 
