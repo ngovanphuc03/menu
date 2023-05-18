@@ -32,30 +32,19 @@ header {
 
 
 
-  #nhom{
-    color: white;
-    font-family: 'Lobster-Regular';
-    text-align: left;
-    font-size: x-large;
 
 
-    font-size: 50px;
-  }
-h1#nhom{
-  margin-bottom: 0;
-  text-align: center;
-}
 #tieude{
     color :white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    justify-content: center;
-    align-items: center;
+   
     
   }
 h2#tieude{
   margin-top: 0;
-  text-align: center;
+  text-align: left;
+  display: inline-block;
 }
 
 
@@ -149,7 +138,7 @@ ul.menu {
 
 }
 #pho_bo{
-  background-image: url(https://cdn.daotaobeptruong.vn/wp-content/uploads/2020/03/cach-nau-pho-bo.jpg);
+  background-image: url(https://daotaobeptruong.vn/wp-content/uploads/2020/03/cach-nau-pho-bo.jpg);
   background-size: cover;
   height: 200px;
   border-radius: 20px;
@@ -356,23 +345,15 @@ a :hover{
   box-shadow:0 7px 7px #422f29;
   display: flex;
   font-size: 15px;
+  margin-left: 60%;
 }
 
 
-.infor-menu h1{
-  
-  text-align: center;
-  
-  background-color: #f2c641;
 
-  
-}
+
 .inf-menu a{
-  margin-right: 30px;
+  margin-right: 70px;
   text-decoration: none;
-  background-color: orange;
-  border-radius: 5px;
-  width: 70px;
-  height: 40px;
-  color:blue
+  color:white;
+  font-size: larger;
 }
